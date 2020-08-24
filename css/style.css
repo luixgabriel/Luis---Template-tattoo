@@ -102,7 +102,9 @@ i{
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-	
+	.img {
+        margin-left: 70px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -116,6 +118,7 @@ i{
         
         margin-left: 55px;
     }
+    
 }
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -124,7 +127,7 @@ i{
         top: -10px; 
         font-size: 17px;
     }
-   
+      
 }
 
 /* Large devices (desktops, 992px and up)*/
